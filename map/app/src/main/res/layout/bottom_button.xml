@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:background="#C9F1E1">
+
+    <LinearLayout
+        android:id="@+id/switch_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/button_pressing">
+
+        <ImageButton
+            android:id="@+id/btnProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#00000000"
+            android:clickable="false"
+            android:contentDescription="@string/progress"
+            android:src="@drawable/trips"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/progress"
+            android:textColor="#259669"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/switch_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/button_pressing">
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/map"
+            android:src="@drawable/ditus"
+            android:visibility="visible"
+            android:clickable="false"
+            android:background="#00000000"/>
+
+        <TextView
+            android:id="@+id/textMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/map"
+            android:textColor="#259669"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/switch_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/button_pressing">
+
+        <ImageButton
+            android:id="@+id/btnText"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/text"
+            android:src="@drawable/rzs"
+            android:visibility="visible"
+            android:clickable="false"
+            android:background="#00000000"/>
+
+        <TextView
+            android:id="@+id/textText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/text"
+            android:textColor="#259669"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/switch_person"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/button_pressing">
+
+        <ImageButton
+            android:id="@+id/btnPerson"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:background="#00000000"
+            android:contentDescription="@string/person"
+            android:src="@drawable/yonghus"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/person"
+            android:textColor="#259669"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
